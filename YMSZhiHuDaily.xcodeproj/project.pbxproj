@@ -174,6 +174,7 @@
 		04A46BA01D123ED80001F0C0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				04A46BBB1D129ED00001F0C0 /* LeftDrawer */,
 				04A46BAC1D1249310001F0C0 /* LaunchScreen */,
 				04A46BA81D1240330001F0C0 /* Tool */,
 				04A46BA11D123ED80001F0C0 /* Home */,
@@ -226,7 +227,6 @@
 		04A46BAC1D1249310001F0C0 /* LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
-				04A46BBB1D129ED00001F0C0 /* LeftDrawer */,
 				04A46BB51D1254180001F0C0 /* Controller */,
 				04A46BB61D1254180001F0C0 /* Model */,
 				04A46BB71D1254180001F0C0 /* View */,
@@ -269,7 +269,8 @@
 				04A46BBD1D129ED00001F0C0 /* Model */,
 				04A46BBE1D129ED00001F0C0 /* View */,
 			);
-			path = LeftDrawer;
+			name = LeftDrawer;
+			path = LaunchScreen/LeftDrawer;
 			sourceTree = "<group>";
 		};
 		04A46BBC1D129ED00001F0C0 /* Controller */ = {
