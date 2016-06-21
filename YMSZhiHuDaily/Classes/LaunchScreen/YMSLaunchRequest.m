@@ -18,7 +18,7 @@ static NSString * const kLaunchImageUrl = @"http://news-at.zhihu.com/api/4/start
 + (void)getLaunchImageWithSuccess:(void(^)(YMSLaunchModel *launchModel))success{
     [YMSRequestTool GET:kLaunchImageUrl parameters:nil success:^(id responseObject) {
         YMSLaunchModel *model = [YMSLaunchModel yy_modelWithJSON:responseObject];
-        success(model);
+        !success ? : success(model);
     } failure:^(NSError *error) {
 //        [SVProgressHUD dismiss];
         [SVProgressHUD showErrorWithStatus:@"网络不给力啊，亲~请稍后再试..."];

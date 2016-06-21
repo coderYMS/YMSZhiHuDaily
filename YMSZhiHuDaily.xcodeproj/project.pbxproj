@@ -24,6 +24,14 @@
 		04A46BC71D12D8C70001F0C0 /* YMSLeftMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A46BC51D12D8C70001F0C0 /* YMSLeftMenuTableViewCell.m */; };
 		04A46BC81D12D8C70001F0C0 /* YMSLeftMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A46BC61D12D8C70001F0C0 /* YMSLeftMenuTableViewCell.xib */; };
 		04A46BCA1D12E3F90001F0C0 /* YMSLeftHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A46BC91D12E3F90001F0C0 /* YMSLeftHomeCell.xib */; };
+		04A46BCE1D18CD1A0001F0C0 /* YMSHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A46BCC1D18CD1A0001F0C0 /* YMSHomeCell.m */; };
+		04A46BCF1D18CD1A0001F0C0 /* YMSHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A46BCD1D18CD1A0001F0C0 /* YMSHomeCell.xib */; };
+		04A46BD21D18E0480001F0C0 /* YMSHomeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A46BD11D18E0480001F0C0 /* YMSHomeRequest.m */; };
+		04A46BD51D18E3290001F0C0 /* YMSHomeStoriesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A46BD41D18E3290001F0C0 /* YMSHomeStoriesModel.m */; };
+		04A46BD81D18E5C60001F0C0 /* YMSLatestNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A46BD71D18E5C60001F0C0 /* YMSLatestNewsModel.m */; };
+		04A46BDB1D192AAF0001F0C0 /* YMSHomeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A46BDA1D192AAF0001F0C0 /* YMSHomeScrollView.m */; };
+		04A46BDE1D196EAD0001F0C0 /* YMSHomeTopImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A46BDD1D196EAD0001F0C0 /* YMSHomeTopImage.m */; };
+		04A46BE11D197B250001F0C0 /* YMSHomeTopStoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A46BE01D197B250001F0C0 /* YMSHomeTopStoryModel.m */; };
 		9AE155ED52E98CC5A7D1B22C /* libPods-YMSZhiHuDaily.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B64FCDBF5F9DD9275564AB /* libPods-YMSZhiHuDaily.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +85,21 @@
 		04A46BC51D12D8C70001F0C0 /* YMSLeftMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSLeftMenuTableViewCell.m; sourceTree = "<group>"; };
 		04A46BC61D12D8C70001F0C0 /* YMSLeftMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMSLeftMenuTableViewCell.xib; sourceTree = "<group>"; };
 		04A46BC91D12E3F90001F0C0 /* YMSLeftHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMSLeftHomeCell.xib; sourceTree = "<group>"; };
+		04A46BCB1D18CD1A0001F0C0 /* YMSHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSHomeCell.h; sourceTree = "<group>"; };
+		04A46BCC1D18CD1A0001F0C0 /* YMSHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSHomeCell.m; sourceTree = "<group>"; };
+		04A46BCD1D18CD1A0001F0C0 /* YMSHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMSHomeCell.xib; sourceTree = "<group>"; };
+		04A46BD01D18E0480001F0C0 /* YMSHomeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSHomeRequest.h; sourceTree = "<group>"; };
+		04A46BD11D18E0480001F0C0 /* YMSHomeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSHomeRequest.m; sourceTree = "<group>"; };
+		04A46BD31D18E3290001F0C0 /* YMSHomeStoriesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSHomeStoriesModel.h; sourceTree = "<group>"; };
+		04A46BD41D18E3290001F0C0 /* YMSHomeStoriesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSHomeStoriesModel.m; sourceTree = "<group>"; };
+		04A46BD61D18E5C60001F0C0 /* YMSLatestNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSLatestNewsModel.h; sourceTree = "<group>"; };
+		04A46BD71D18E5C60001F0C0 /* YMSLatestNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSLatestNewsModel.m; sourceTree = "<group>"; };
+		04A46BD91D192AAF0001F0C0 /* YMSHomeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSHomeScrollView.h; sourceTree = "<group>"; };
+		04A46BDA1D192AAF0001F0C0 /* YMSHomeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSHomeScrollView.m; sourceTree = "<group>"; };
+		04A46BDC1D196EAD0001F0C0 /* YMSHomeTopImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSHomeTopImage.h; sourceTree = "<group>"; };
+		04A46BDD1D196EAD0001F0C0 /* YMSHomeTopImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSHomeTopImage.m; sourceTree = "<group>"; };
+		04A46BDF1D197B250001F0C0 /* YMSHomeTopStoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSHomeTopStoryModel.h; sourceTree = "<group>"; };
+		04A46BE01D197B250001F0C0 /* YMSHomeTopStoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSHomeTopStoryModel.m; sourceTree = "<group>"; };
 		94A0F5FBBA2638848F46CE1F /* Pods-YMSZhiHuDaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSZhiHuDaily.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMSZhiHuDaily/Pods-YMSZhiHuDaily.release.xcconfig"; sourceTree = "<group>"; };
 		B8B64FCDBF5F9DD9275564AB /* libPods-YMSZhiHuDaily.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YMSZhiHuDaily.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F942EBF3CF687ADBD25B6EDF /* Pods-YMSZhiHuDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSZhiHuDaily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMSZhiHuDaily/Pods-YMSZhiHuDaily.debug.xcconfig"; sourceTree = "<group>"; };
@@ -204,6 +227,14 @@
 		04A46BA31D123ED80001F0C0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				04A46BD01D18E0480001F0C0 /* YMSHomeRequest.h */,
+				04A46BD11D18E0480001F0C0 /* YMSHomeRequest.m */,
+				04A46BD61D18E5C60001F0C0 /* YMSLatestNewsModel.h */,
+				04A46BD71D18E5C60001F0C0 /* YMSLatestNewsModel.m */,
+				04A46BD31D18E3290001F0C0 /* YMSHomeStoriesModel.h */,
+				04A46BD41D18E3290001F0C0 /* YMSHomeStoriesModel.m */,
+				04A46BDF1D197B250001F0C0 /* YMSHomeTopStoryModel.h */,
+				04A46BE01D197B250001F0C0 /* YMSHomeTopStoryModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -211,6 +242,13 @@
 		04A46BA41D123ED80001F0C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04A46BCB1D18CD1A0001F0C0 /* YMSHomeCell.h */,
+				04A46BCC1D18CD1A0001F0C0 /* YMSHomeCell.m */,
+				04A46BCD1D18CD1A0001F0C0 /* YMSHomeCell.xib */,
+				04A46BD91D192AAF0001F0C0 /* YMSHomeScrollView.h */,
+				04A46BDA1D192AAF0001F0C0 /* YMSHomeScrollView.m */,
+				04A46BDC1D196EAD0001F0C0 /* YMSHomeTopImage.h */,
+				04A46BDD1D196EAD0001F0C0 /* YMSHomeTopImage.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -428,6 +466,7 @@
 				04A46B7C1D118ABF0001F0C0 /* LaunchScreen.storyboard in Resources */,
 				04A46BB11D12495F0001F0C0 /* YMSLaunchViewController.xib in Resources */,
 				04A46B791D118ABF0001F0C0 /* Assets.xcassets in Resources */,
+				04A46BCF1D18CD1A0001F0C0 /* YMSHomeCell.xib in Resources */,
 				04A46BC81D12D8C70001F0C0 /* YMSLeftMenuTableViewCell.xib in Resources */,
 				04A46BCA1D12E3F90001F0C0 /* YMSLeftHomeCell.xib in Resources */,
 			);
@@ -503,12 +542,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A46BC21D129F150001F0C0 /* YMSLeftDrawerViewController.m in Sources */,
+				04A46BD21D18E0480001F0C0 /* YMSHomeRequest.m in Sources */,
 				04A46BBA1D1254450001F0C0 /* YMSLaunchModel.m in Sources */,
+				04A46BCE1D18CD1A0001F0C0 /* YMSHomeCell.m in Sources */,
 				04A46BA71D123F270001F0C0 /* YMSHomeViewController.m in Sources */,
 				04A46BC71D12D8C70001F0C0 /* YMSLeftMenuTableViewCell.m in Sources */,
+				04A46BDE1D196EAD0001F0C0 /* YMSHomeTopImage.m in Sources */,
+				04A46BDB1D192AAF0001F0C0 /* YMSHomeScrollView.m in Sources */,
+				04A46BE11D197B250001F0C0 /* YMSHomeTopStoryModel.m in Sources */,
 				04A46BB01D12495F0001F0C0 /* YMSLaunchViewController.m in Sources */,
 				04A46B711D118ABF0001F0C0 /* AppDelegate.m in Sources */,
+				04A46BD51D18E3290001F0C0 /* YMSHomeStoriesModel.m in Sources */,
 				04A46B6E1D118ABF0001F0C0 /* main.m in Sources */,
+				04A46BD81D18E5C60001F0C0 /* YMSLatestNewsModel.m in Sources */,
 				04A46BB41D1251ED0001F0C0 /* YMSLaunchRequest.m in Sources */,
 				04A46BAB1D1240520001F0C0 /* YMSRequestTool.m in Sources */,
 			);
